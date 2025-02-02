@@ -1,0 +1,130 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xxx ZhangqianyuDR@outlook.com, xxx, LIC=76F5U-SUZEE-WFZI7-E213N-64JUQ-8DS0X
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.35.0.2
+Toolchain Path:  E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+E:\myRTOS\my_RTOS_GD32\my_RTOS_GD32.uvprojx
+Project File Date:  02/01/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling tMemBlock.c...
+compiling main.c...
+compiling tTask.c...
+source\tTask.c(20): warning:  #223-D: function "memset" declared implicitly
+  	memset(stack, 0, size);
+source\tTask.c: 1 warning, 0 errors
+compiling app.c...
+compiling tCpu.c...
+compiling tbitmap.c...
+compiling tlist.c...
+compiling tMutex.c...
+compiling tHooks.c...
+compiling tEvent.c...
+compiling tSem.c...
+compiling tMbox.c...
+compiling tFlagGroup.c...
+compiling switch.c...
+compiling tTime.c...
+compiling tTimer.c...
+assembling startup_gd32f407_427.s...
+compiling gd32f4xx_misc.c...
+compiling myTask.c...
+source\myTask.c(98): warning:  #550-D: variable "recData"  was set but never used
+  		uint8_t recData;
+source\myTask.c: 1 warning, 0 errors
+compiling gd32f4xx_pmu.c...
+compiling gd32f4xx_rcu.c...
+compiling system_gd32f4xx.c...
+compiling gd32f4xx_gpio.c...
+compiling gd32f4xx_exti.c...
+compiling gd32f4xx_usart.c...
+linking...
+Program Size: Code=7750 RO-data=682 RW-data=60 ZI-data=27780  
+".\Objects\my_RTOS_GD32.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: GigaDevice
+                https://gd32mcu.com/data/documents/pack/GigaDevice.GD32F4xx_DFP.3.2.0.pack
+                GigaDevice.GD32F4xx_DFP.3.2.0
+                GigaDevice GD32F4xx Series Device Support and Examples
+   * Component: Libopt Version: 3.0.2
+   * Component: Startup Version: 3.0.2
+   * Component: EXTI Version: 3.0.2
+   * Component: GPIO Version: 3.0.2
+   * Component: MISC Version: 3.0.2
+   * Component: PMU Version: 3.0.2
+   * Component: RCU Version: 3.0.2
+   * Component: USART Version: 3.0.2
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc
+  E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: GigaDevice::Device:Libopt:3.0.2
+      Include file:  Device\F4XX\Include\gd32f4xx_libopt.h
+
+   * Component: GigaDevice::Device:Startup:3.0.2
+      Source file:   Device\F4XX\Source\system_gd32f4xx.c
+      Include file:  Device\F4XX\Include\gd32f4xx.h
+      Source file:   Device\F4XX\Source\ARM\startup_gd32f407_427.s
+
+   * Component: GigaDevice::Device:StdPeripherals:EXTI:3.0.2
+      Include file:  Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_exti.h
+      Source file:   Device\F4XX\Firmware\Peripherals\src\gd32f4xx_exti.c
+
+   * Component: GigaDevice::Device:StdPeripherals:GPIO:3.0.2
+      Include file:  Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_gpio.h
+      Source file:   Device\F4XX\Firmware\Peripherals\src\gd32f4xx_gpio.c
+
+   * Component: GigaDevice::Device:StdPeripherals:MISC:3.0.2
+      Source file:   Device\F4XX\Firmware\Peripherals\src\gd32f4xx_misc.c
+      Include file:  Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_misc.h
+
+   * Component: GigaDevice::Device:StdPeripherals:PMU:3.0.2
+      Include file:  Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_pmu.h
+      Source file:   Device\F4XX\Firmware\Peripherals\src\gd32f4xx_pmu.c
+
+   * Component: GigaDevice::Device:StdPeripherals:RCU:3.0.2
+      Include file:  Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_rcu.h
+      Source file:   Device\F4XX\Firmware\Peripherals\src\gd32f4xx_rcu.c
+
+   * Component: GigaDevice::Device:StdPeripherals:USART:3.0.2
+      Source file:   Device\F4XX\Firmware\Peripherals\src\gd32f4xx_usart.c
+      Include file:  Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_usart.h
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

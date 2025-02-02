@@ -1,0 +1,415 @@
+Dependencies for Project 'my_RTOS_GD32', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\source\app.c)(0x679E6A62)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\app.o --omf_browse .\objects\app.crf --depend .\objects\app.d)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_gpio.h)(0x65AF2B0A)
+I (.\Inc\gd32f4xx.h)(0x679DF663)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\system_gd32f4xx.h)(0x65AF2B08)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\gd32f4xx_libopt.h)(0x65AF2BEE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x679E33D8)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_exti.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_misc.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_pmu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_rcu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_usart.h)(0x65AF2B0A)
+F (.\source\main.c)(0x679E3A4A)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+F (.\source\switch.c)(0x679DEC4F)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\switch.o --omf_browse .\objects\switch.crf --depend .\objects\switch.d)
+I (.\Inc\gd32f4xx.h)(0x679DF663)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\system_gd32f4xx.h)(0x65AF2B08)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\gd32f4xx_libopt.h)(0x65AF2BEE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x679E33D8)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_exti.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_gpio.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_misc.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_pmu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_rcu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_usart.h)(0x65AF2B0A)
+I (source\tinyOS.h)(0x679E2E52)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+F (.\source\tbitmap.c)(0x679DAD23)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\tbitmap.o --omf_browse .\objects\tbitmap.crf --depend .\objects\tbitmap.d)
+I (source\tlib.h)(0x67934534)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (.\source\tCpu.c)(0x679DEC46)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\tcpu.o --omf_browse .\objects\tcpu.crf --depend .\objects\tcpu.d)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+I (.\Inc\gd32f4xx.h)(0x679DF663)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\system_gd32f4xx.h)(0x65AF2B08)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\gd32f4xx_libopt.h)(0x65AF2BEE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x679E33D8)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_exti.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_gpio.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_misc.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_pmu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_rcu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_usart.h)(0x65AF2B0A)
+F (.\source\tEvent.c)(0x679C7951)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\tevent.o --omf_browse .\objects\tevent.crf --depend .\objects\tevent.d)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+F (.\source\tFlagGroup.c)(0x679DAD35)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\tflaggroup.o --omf_browse .\objects\tflaggroup.crf --depend .\objects\tflaggroup.d)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+F (.\source\tHooks.c)(0x679DB863)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\thooks.o --omf_browse .\objects\thooks.crf --depend .\objects\thooks.d)
+I (source\tHooks.h)(0x679DB81E)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\myTask.h)(0x679E5EE9)
+F (.\source\tlist.c)(0x67933E10)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\tlist.o --omf_browse .\objects\tlist.crf --depend .\objects\tlist.d)
+I (source\tlib.h)(0x67934534)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (.\source\tMbox.c)(0x679DAD56)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\tmbox.o --omf_browse .\objects\tmbox.crf --depend .\objects\tmbox.d)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+F (.\source\tMemBlock.c)(0x679DAD79)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\tmemblock.o --omf_browse .\objects\tmemblock.crf --depend .\objects\tmemblock.d)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+F (.\source\tMutex.c)(0x679DACE1)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\tmutex.o --omf_browse .\objects\tmutex.crf --depend .\objects\tmutex.d)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+F (.\source\tSem.c)(0x679DACB7)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\tsem.o --omf_browse .\objects\tsem.crf --depend .\objects\tsem.d)
+I (source\tSem.h)(0x6799C843)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tlib.h)(0x67934534)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tTask.h)(0x679D19A5)
+I (source\tinyOS.h)(0x679E2E52)
+I (source\tconfig.h)(0x679E0734)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+F (.\source\tTask.c)(0x679DB58B)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\ttask.o --omf_browse .\objects\ttask.crf --depend .\objects\ttask.d)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+F (.\source\tTime.c)(0x679C92B1)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\ttime.o --omf_browse .\objects\ttime.crf --depend .\objects\ttime.d)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+F (.\source\tTimer.c)(0x679DAD9B)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\ttimer.o --omf_browse .\objects\ttimer.crf --depend .\objects\ttimer.d)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+F (.\source\myTask.h)(0x679E5EE9)()
+F (.\source\myTask.c)(0x679E6A88)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\mytask.o --omf_browse .\objects\mytask.crf --depend .\objects\mytask.d)
+I (source\tinyOS.h)(0x679E2E52)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (source\tlib.h)(0x67934534)
+I (source\tconfig.h)(0x679E0734)
+I (source\tEvent.h)(0x679C5FAD)
+I (source\tTask.h)(0x679D19A5)
+I (source\tSem.h)(0x6799C843)
+I (source\tMbox.h)(0x679DA164)
+I (source\tMemBlock.h)(0x679A37D3)
+I (source\tFlagGroup.h)(0x679C4DBC)
+I (source\tMutex.h)(0x679C82E3)
+I (source\tTimer.h)(0x679D9A57)
+I (source\tHooks.h)(0x679DB81E)
+I (source\myTask.h)(0x679E5EE9)
+I (.\Inc\gd32f4xx.h)(0x679DF663)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\system_gd32f4xx.h)(0x65AF2B08)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\gd32f4xx_libopt.h)(0x65AF2BEE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x679E33D8)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_exti.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_gpio.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_misc.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_pmu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_rcu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_usart.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\time.h)(0x60252378)
+F (RTE\Device\GD32F407ZE\gd32f4xx_misc.c)(0x65AF2B0A)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\gd32f4xx_misc.o --omf_browse .\objects\gd32f4xx_misc.crf --depend .\objects\gd32f4xx_misc.d)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_misc.h)(0x65AF2B0A)
+I (.\Inc\gd32f4xx.h)(0x679DF663)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\system_gd32f4xx.h)(0x65AF2B08)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\gd32f4xx_libopt.h)(0x65AF2BEE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x679E33D8)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_exti.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_gpio.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_pmu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_rcu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_usart.h)(0x65AF2B0A)
+F (RTE\Device\GD32F407ZE\gd32f4xx_pmu.c)(0x65AF2B0A)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\gd32f4xx_pmu.o --omf_browse .\objects\gd32f4xx_pmu.crf --depend .\objects\gd32f4xx_pmu.d)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_pmu.h)(0x65AF2B0A)
+I (.\Inc\gd32f4xx.h)(0x679DF663)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\system_gd32f4xx.h)(0x65AF2B08)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\gd32f4xx_libopt.h)(0x65AF2BEE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x679E33D8)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_exti.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_gpio.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_misc.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_rcu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_usart.h)(0x65AF2B0A)
+F (RTE\Device\GD32F407ZE\gd32f4xx_rcu.c)(0x65AF2B0A)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\gd32f4xx_rcu.o --omf_browse .\objects\gd32f4xx_rcu.crf --depend .\objects\gd32f4xx_rcu.d)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_rcu.h)(0x65AF2B0A)
+I (.\Inc\gd32f4xx.h)(0x679DF663)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\system_gd32f4xx.h)(0x65AF2B08)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\gd32f4xx_libopt.h)(0x65AF2BEE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x679E33D8)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_exti.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_gpio.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_misc.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_pmu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_usart.h)(0x65AF2B0A)
+F (RTE\Device\GD32F407ZE\startup_gd32f407_427.s)(0x65AF2B08)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include--pd "__UVISION_VERSION SETA 535" --pd "_RTE_ SETA 1" --pd "GD32F407 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_gd32f407_427.lst --xref -o .\objects\startup_gd32f407_427.o --depend .\objects\startup_gd32f407_427.d)
+F (RTE\Device\GD32F407ZE\system_gd32f4xx.c)(0x679DF7D4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\system_gd32f4xx.o --omf_browse .\objects\system_gd32f4xx.crf --depend .\objects\system_gd32f4xx.d)
+I (.\Inc\gd32f4xx.h)(0x679DF663)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\system_gd32f4xx.h)(0x65AF2B08)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\gd32f4xx_libopt.h)(0x65AF2BEE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x679E33D8)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_exti.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_gpio.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_misc.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_pmu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_rcu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_usart.h)(0x65AF2B0A)
+F (RTE\Device\GD32F407ZE\gd32f4xx_gpio.c)(0x65AF2B0A)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\gd32f4xx_gpio.o --omf_browse .\objects\gd32f4xx_gpio.crf --depend .\objects\gd32f4xx_gpio.d)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_gpio.h)(0x65AF2B0A)
+I (.\Inc\gd32f4xx.h)(0x679DF663)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\system_gd32f4xx.h)(0x65AF2B08)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\gd32f4xx_libopt.h)(0x65AF2BEE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x679E33D8)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_exti.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_misc.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_pmu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_rcu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_usart.h)(0x65AF2B0A)
+F (RTE\Device\GD32F407ZE\gd32f4xx_usart.c)(0x65AF2B0A)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\gd32f4xx_usart.o --omf_browse .\objects\gd32f4xx_usart.crf --depend .\objects\gd32f4xx_usart.d)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_usart.h)(0x65AF2B0A)
+I (.\Inc\gd32f4xx.h)(0x679DF663)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\system_gd32f4xx.h)(0x65AF2B08)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\gd32f4xx_libopt.h)(0x65AF2BEE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x679E33D8)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_exti.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_gpio.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_misc.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_pmu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_rcu.h)(0x65AF2B0A)
+F (RTE\Device\GD32F407ZE\gd32f4xx_exti.c)(0x65AF2B0A)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\_Target_1-IE:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc-IE:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F407 -D_RTE_-o .\objects\gd32f4xx_exti.o --omf_browse .\objects\gd32f4xx_exti.crf --depend .\objects\gd32f4xx_exti.d)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_exti.h)(0x65AF2B0A)
+I (.\Inc\gd32f4xx.h)(0x679DF663)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\system_gd32f4xx.h)(0x65AF2B08)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include\gd32f4xx_libopt.h)(0x65AF2BEE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x679E33D8)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_gpio.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_misc.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_pmu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_rcu.h)(0x65AF2B0A)
+I (E:\KeilMDKARM5.35\Packs\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Firmware\Peripherals\inc\gd32f4xx_usart.h)(0x65AF2B0A)

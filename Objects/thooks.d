@@ -1,0 +1,17 @@
+.\objects\thooks.o: source\tHooks.c
+.\objects\thooks.o: source\tHooks.h
+.\objects\thooks.o: source\tinyOS.h
+.\objects\thooks.o: E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\thooks.o: source\tlib.h
+.\objects\thooks.o: source\tconfig.h
+.\objects\thooks.o: source\tEvent.h
+.\objects\thooks.o: source\tTask.h
+.\objects\thooks.o: source\tSem.h
+.\objects\thooks.o: source\tMbox.h
+.\objects\thooks.o: source\tinyOS.h
+.\objects\thooks.o: source\tMemBlock.h
+.\objects\thooks.o: source\tFlagGroup.h
+.\objects\thooks.o: source\tMutex.h
+.\objects\thooks.o: source\tTimer.h
+.\objects\thooks.o: source\tHooks.h
+.\objects\thooks.o: source\myTask.h

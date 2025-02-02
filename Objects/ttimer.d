@@ -1,0 +1,16 @@
+.\objects\ttimer.o: source\tTimer.c
+.\objects\ttimer.o: source\tinyOS.h
+.\objects\ttimer.o: E:\KeilMDKARM5.35\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ttimer.o: source\tlib.h
+.\objects\ttimer.o: source\tconfig.h
+.\objects\ttimer.o: source\tEvent.h
+.\objects\ttimer.o: source\tTask.h
+.\objects\ttimer.o: source\tSem.h
+.\objects\ttimer.o: source\tMbox.h
+.\objects\ttimer.o: source\tinyOS.h
+.\objects\ttimer.o: source\tMemBlock.h
+.\objects\ttimer.o: source\tFlagGroup.h
+.\objects\ttimer.o: source\tMutex.h
+.\objects\ttimer.o: source\tTimer.h
+.\objects\ttimer.o: source\tHooks.h
+.\objects\ttimer.o: source\myTask.h
